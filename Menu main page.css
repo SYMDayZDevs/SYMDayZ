@@ -1,0 +1,33 @@
+/* Basic styling for the menu */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fffb00; /* Change this to your desired background color */
+}
+
+nav {
+    margin-top: 0; /* Remove top margin of the navigation menu */
+}
+
+nav li {
+    float: none;
+    display: inline-block; /* Display list items horizontally */
+    margin: 0; /* Remove margins for list items */
+}
+
+
+nav li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px; /*change this vaule to desired font size*/
+}
+
+/* Yellow hover */
+nav li a:hover {
+    background-color: #fffb00; /* Change this to your desired hover color */
+}

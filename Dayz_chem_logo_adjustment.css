@@ -1,0 +1,20 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Stack items vertically */
+    margin-top: 0; /* Remove top margin */
+}
+.content {
+    text-align: center;
+    margin-top: 0; /* Remove top margin */
+}
+.logo {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 0; /* Remove bottom margin of the logo */
+    padding: 0; /* Remove all padding */
+}
+
+
